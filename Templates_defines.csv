@@ -1,0 +1,37 @@
+Define,Value
+Version Number,v0.01
+RowNumber,"#![refline]"
+CardIndex,"#padl;{1};0;![cardindex]#"
+CardCount,"#padl;{1};0;![cardcount]#"
+CardNumber,"@[CardIndex,{1}]/@[CardCount,{1}]"
+CardInRow,"#sc;0;1;1#"
+HR,<br><br><ac><img=Images\Symbol_HR.png></ac><br><br>
+Dot,<img=Images\Symbol_Dot.png>
+Star,<img=Images\Symbol_Star.png>
+Die,<Img=Images\Symbol_Die.png>
+Cancel,<img=Images\Symbol_No.png>
+Infantry1,<img=Images\Icon_Infantry_Flag_Single.png>
+Infantry2,<img=Images\Icon_Infantry_Flag_Double.png>
+Infantry3,<img=Images\Icon_Infantry_Flag_Triple.png>
+Easy,Images\Faction Reference\Reference_Complexity_Easy.png
+Medium,Images\Faction Reference\Reference_Complexity_Medium.png
+Hard,Images\Faction Reference\Reference_Complexity_Hard.png
+Green,<img=Images\Faction Reference\Reference_Tech_Green.png>
+Red,<img=Images\Faction Reference\Reference_Tech_Red.png>
+Yellow,<img=Images\Faction Reference\Reference_Tech_Yellow.png>
+Blue,<img=Images\Faction Reference\Reference_Tech_Blue.png>
+0R,<img=Images\Faction Reference\Reference_Planet_0R.png.png>
+R,<img=Images\Faction Reference\Reference_Planet_{1}R.png>
+I,<img=Images\Faction Reference\Reference_Planet_{1}I.png>
+For,<i><b>For: </b></i>
+Against,<i><b>Against: </b></i>
+Planet Ready TextBox,Images\Planets\Planet_Ready_Textbox_{1}.png
+Planet Exhausted TextBox,Images\Planets\Planet_Exhausted_Textbox_{1}.png
+LogoEronousTiles,Images\Logo_Eronous_Tiles.png
+ScaledValue,"#math;@[PlanetScale]*{1}#"
+HalfSize,"#math;@[Size{1}]/2#"
+CenterDiff,"#math;@[PlanetSize]*#math;@[Center{1}]/@[Size{1}]##"
+OverrideWidth,"#math;@[PlanetSize]*@[PlanetScale]#"
+OverrideHeight,"#math;@[PlanetSize]*@[PlanetScale]#"
+OverrideX,"#math;@[Planet{1}X]-@[ScaledValue,@[CenterDiff,X]];0#"
+OverrideY,"#math;@[Planet{1}Y]-@[ScaledValue,@[CenterDiff,Y]];0#"
