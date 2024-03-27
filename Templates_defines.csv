@@ -10,9 +10,18 @@ Dot,<img=Images\Symbol_Dot.png>
 Star,<img=Images\Symbol_Star.png>
 Die,<Img=Images\Symbol_Die.png>
 Cancel,<img=Images\Symbol_No.png>
-Infantry1,<img=Images\Icon_Infantry_Flag_Single.png>
-Infantry2,<img=Images\Icon_Infantry_Flag_Double.png>
-Infantry3,<img=Images\Icon_Infantry_Flag_Triple.png>
+TechUp,<ar><img=Images\Icon_Up_Arrow.png;0.9>
+Infantry1,<img=Images\Icon_Infantry_Flag_Single.png;0.8>
+Infantry2,<img=Images\Icon_Infantry_Flag_Double.png;0.8>
+Infantry3,<img=Images\Icon_Infantry_Flag_Triple.png;0.8>
+Fighter1,<img=Images\Icon_Fighter_Ship_Single.png;0.8>
+Fighter2,<img=Images\Icon_Fighter_Ship_Double.png;0.8>
+Fighter3,<img=Images\Icon_Fighter_Ship_Triple.png;0.8>
+Fighter4,<img=Images\Icon_Fighter_Ship_Quad.png;0.8>
+Hit1,<img=Images\Icon_Attack_Hit_Single.png;0.8>
+Hit2,<img=Images\Icon_Attack_Hit_Double.png;0.8>
+Hit3,<img=Images\Icon_Attack_Hit_Triple.png;0.8>
+Hit4,<img=Images\Icon_Attack_Hit_Quad.png;0.8>
 Easy,Images\Faction Reference\Reference_Complexity_Easy.png
 Medium,Images\Faction Reference\Reference_Complexity_Medium.png
 Hard,Images\Faction Reference\Reference_Complexity_Hard.png
@@ -25,6 +34,8 @@ R,<img=Images\Faction Reference\Reference_Planet_{1}R.png>
 I,<img=Images\Faction Reference\Reference_Planet_{1}I.png>
 For,<i><b>For: </b></i>
 Against,<i><b>Against: </b></i>
+Action,<i><b>ACTION: </b></i>
+Attach,<i><b>ATTACH: </b></i>
 Planet Ready TextBox,Images\Planets\Planet_Ready_Textbox_{1}.png
 Planet Exhausted TextBox,Images\Planets\Planet_Exhausted_Textbox_{1}.png
 LogoEronousTiles,Images\Logo_Eronous_Tiles.png
