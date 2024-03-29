@@ -7,7 +7,7 @@ CardNumber,"@[CardIndex,{1}]/@[CardCount,{1}]"
 CardInRow,"#sc;0;1;1#"
 HR,<br><br><ac><img=Images\Symbol_HR.png></ac><br><br>
 Dot,<img=Images\Symbol_Dot.png>
-Star,<img=Images\Symbol_Star.png>
+Star,◆
 Die,<Img=Images\Symbol_Die.png>
 Cancel,<img=Images\Symbol_No.png>
 TechUp,<ar><img=Images\Icon_Up_Arrow.png;0.9>
@@ -46,3 +46,9 @@ OverrideWidth,"#math;@[PlanetSize]*@[PlanetScale]#"
 OverrideHeight,"#math;@[PlanetSize]*@[PlanetScale]#"
 OverrideX,"#math;@[Planet{1}X]-@[ScaledValue,@[CenterDiff,X]];0#"
 OverrideY,"#math;@[Planet{1}Y]-@[ScaledValue,@[CenterDiff,Y]];0#"
+Header,<fscl=1.25;1.25><font=Slider TI4><caps>
+Body,</caps><fscl=1.0;1.0><font=Myriad Pro><push=50>
+TechBlue,<fc=6fdafd><ic=6fdafd>
+TechRed,<fc=ff2222><ic=ff2222>
+TechYellow,<fc=deff00><ic=deff00>
+TechGreen,<fc=65df1c><ic=65df1c>
