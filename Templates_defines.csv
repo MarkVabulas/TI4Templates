@@ -1,11 +1,11 @@
 Define,Value
 Version Number,v0.01
 RowNumber,"#![refline]"
-CardIndex,"#padl;{1};0;![cardindex]#"
+CardIndex,"#padl;{1};0;![deckindex]#"
 CardCount,"#padl;{1};0;![cardcount]#"
 CardNumber,"@[CardIndex,{1}]/@[CardCount,{1}]"
 CardInRow,"#sc;0;1;1#"
-HR,<br><br><ac><img=Images\Symbol_HR.png></ac><br><br>
+HR,<br><br><ac><img=Images\Symbol_HR.png#(if {1} != #empty then ;{1};{1})#></ac><br><br>
 Dot,<img=Images\Symbol_Dot.png>
 Star,◆
 Die,<Img=Images\Symbol_Die.png>
@@ -46,9 +46,19 @@ OverrideWidth,"#math;@[PlanetSize]*@[PlanetScale]#"
 OverrideHeight,"#math;@[PlanetSize]*@[PlanetScale]#"
 OverrideX,"#math;@[Planet{1}X]-@[ScaledValue,@[CenterDiff,X]];0#"
 OverrideY,"#math;@[Planet{1}Y]-@[ScaledValue,@[CenterDiff,Y]];0#"
-Header,<fscl=1.25;1.25><font=Slider TI4><caps>
-Body,</caps><fscl=1.0;1.0><font=Myriad Pro><push=50>
+HeaderStart,<font=Slider TI4><caps>
+HeaderEnd,</caps>
+BodyStart,<fscl=1.0;1.0><font=Myriad Pro><p=5;5>
+BodyEnd,</p><br>
 TechBlue,<fc=6fdafd><ic=6fdafd>
 TechRed,<fc=ff2222><ic=ff2222>
 TechYellow,<fc=deff00><ic=deff00>
 TechGreen,<fc=65df1c><ic=65df1c>
+StrategyCardColor1,ec1c24
+StrategyCardColor2,f69421
+StrategyCardColor3,fff200
+StrategyCardColor4,39b54a
+StrategyCardColor5,00a99d
+StrategyCardColor6,008ed4
+StrategyCardColor7,15489f
+StrategyCardColor8,752b90
